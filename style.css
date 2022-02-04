@@ -5,8 +5,17 @@
     font-family: cursive sans-serif;
 }
 
+@keyframes changeColor {
+     0% {background-color: rgb(96, 175, 177);}
+     50% {background-color: rgb(140, 196, 197);}
+     100% {background-color: rgb(96, 175, 177);;}
+    
+}
+
 body{
-    background-color: rgb(96, 175, 177);
+    animation-name: changeColor;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
 .calculator{
